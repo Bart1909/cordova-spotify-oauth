@@ -1,24 +1,24 @@
 {
   "name": "cordova-spotify-oauth",
-  "version": "0.1.4",
+  "version": "0.1.11",
   "description": "Cordova plugin for authenticating with Spotify",
   "main": "www/build/spotify-oauth.min.js",
-  "repository": "https://github.com/Festify/cordova-spotify-oauth.git",
-  "author": "Festify Dev Team <mail+git@festify.rocks>",
+  "author": "Festify Dev Team <mail+git@festify.rocks> Browser support added by Thorvald Aagaard",
   "contributors": [
     "Moritz Gunz <moritz.gunz@gmail.com>",
     "Leo Bernard <admin@leolabs.org>",
-    "Marcus Weiner <melodie124@gmail.com>"
+    "Marcus Weiner <melodie124@gmail.com>",
+    "Thorvald Aagaard <thorvald@aalborgdata.dk"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Festify/cordova-spotify-oauth.git"
+    "url": "git+https://github.com/ThorvaldAagaard/cordova-spotify-oauth.git"
   },
   "engines": {
     "cordovaDependencies": {
       "0.1.0": {
-        "cordova": "^6.0.0 - 7.0.0"
+        "cordova": "^6.0.0 - 8.0.0"
       }
     }
   },
