@@ -6,6 +6,12 @@ Easy Spotify authentication for [Apache Cordova][cordova] / PhoneGap apps
 
 [API Documentation][api-docs]
 
+## Ionic browser support
+
+Browser support added.
+
+The callback should be the Ionic application and it needs to catch the callback and store the authorizationcode, so this plugin can get access and refreshtoken
+
 ## Features
 
 This plugin provides a simple way of authenticating a user with the Spotify API using the authorization code flow.
