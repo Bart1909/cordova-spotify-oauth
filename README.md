@@ -12,6 +12,20 @@ Browser support added.
 
 The callback should be the Ionic application and it needs to catch the callback and store the authorizationcode, so this plugin can get access and refreshtoken
 
+If callback is set to root the following code can be used to store the AuthorizationCode for a short while
+
+```js
+    platform.ready().then(() => {
+      let params = new URLSearchParams(window.location.search);
+      let code = params.get('?code');
+      console.log(code);
+      if (code) {
+        window.localStorage.setItem('SpotifyOAuthData2', code);
+        window.close();
+      }
+    });   
+```
+
 ## Features
 
 This plugin provides a simple way of authenticating a user with the Spotify API using the authorization code flow.
